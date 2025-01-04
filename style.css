@@ -881,6 +881,24 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+.product-image{
+  height: 400px;
+  padding-bottom: 20px;
+}
+.first-imgs{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.product-image img{
+  height: 100%;
+
+}
+.insta-image{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
 
 .image-zoom-effect .image-holder {
   width: 100%;
@@ -929,6 +947,9 @@ a {
   color: transparent;
   background: var(--bs-primary);
   height: 2px;
+}
+.element-title a{
+  margin-top: 20px !important;
 }
 
 .border-animation a:hover:after {
