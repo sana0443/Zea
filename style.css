@@ -221,6 +221,7 @@ a {
   --bs-navbar-active-color: var(--bs-light);
 }
 
+
 /* accordion */
 .accordion {
   --bs-accordion-border-width: 0;
@@ -295,6 +296,9 @@ a {
 /* slideshow */
 .slideshow {
   overflow: hidden;
+}
+.navbar-brand img{
+width: 15%;
 }
 
 /* .slideshow .swiper-slide {
@@ -1083,6 +1087,28 @@ a {
   font-size: 1em;
   font-weight: 700;
   line-height: 1;
+}
+
+.collection-item{
+  height: auto;
+}
+
+.product-image1{
+  height: 100%;
+}
+.fas.fa-shapes,.fas.fa-gem,.fas.fa-lightbulb, .fas.fa-recycle {
+  color: #dc3545; /* Custom color */
+  margin-bottom: 15px; /* Adjust spacing */
+}
+
+.foot-logo img{
+  width: 20%;
+}
+
+
+
+.section-title h1{
+  color: red;
 }
 
 .testimonial-swiper .testimonial-item blockquote {
