@@ -1096,6 +1096,12 @@ width: 15%;
 .product-image1{
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  .product-image1 {
+    height: auto !important; /* Removes height on small screens */
+  }
+}
 .fas.fa-shapes,.fas.fa-gem,.fas.fa-lightbulb, .fas.fa-recycle {
   color: #dc3545; /* Custom color */
   margin-bottom: 15px; /* Adjust spacing */
