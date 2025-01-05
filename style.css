@@ -325,6 +325,11 @@ a {
   transition-delay: 600ms;
 }
 
+.banner-content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .slideshow.fade-in .swiper-slide.swiper-slide-active .banner-content {
   opacity: 1;
 }
@@ -884,6 +889,7 @@ a {
 .product-image{
   height: 400px;
   padding-bottom: 20px;
+  width: 100%;
 }
 .first-imgs{
   height: 400px;
